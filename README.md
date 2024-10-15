@@ -25,11 +25,24 @@ This project is a simple **Task Manager** application that uses **LocalStorage**
    
 2. **Task Display**:
    - Tasks are displayed in one of three lanes: "To Do", "In Progress", and "Done". The tasks are shown as draggable cards, with colors based on the due date:
-     - **Yellow**: The task is due today.
-     - **Red**: The task is overdue.
+     - Yellow: The task is due today.
+     - Red: The task is overdue.
 
 3. **Drag-and-Drop**:
    - Users can drag task cards between the lanes. When a task is dropped in a new lane, its status is updated in LocalStorage.
 
 4. **Task Deletion**:
    - Each task card includes a delete button that allows users to remove the task from the list and LocalStorage.
+
+
+## Installation
+Please feel free to clone this repo or access the [deployment link here](https://mrgithubby.github.io/Task_Manager/Develop/index.html).
+
+## Usage
+Hit the "Add Task" button for a pop-up module for to create a new To-Do task. Upon saving the task, the card will be produced in the To-Do swim lane for you to drag and drop into the In Progress or the Done swim lanes. 
+
+## Credits
+N/A
+
+## License
+Please refer to the LICENSE in the repo.
